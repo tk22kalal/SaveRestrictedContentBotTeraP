@@ -14,11 +14,10 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 # variables
 API_ID = 24058425
 API_HASH = "694b063e55c24287a3d30aed90191373"
-BOT_TOKEN = "6802436912:AAG8YFXKZZMduxzHAOFTqS0b87qAwrjpoO0"
-SESSION = "BQCMLuIAOjpNgP4rXUYxZUYwblGv63lfh7epfQFrAS-ip3e0Wid5-rF86t85noSWjPcvKqjrbU7ypBuTUvkrUdDmV4Sxi_rJLDovKHKhhRPzbUeJoG_QegiTQwWeKvcDx6YQwBd7SsyCXD9mPdwHxWEgV3lD-lY-WtwIdlGyH5tpEd4Vyncg_4Wq-PN8OVtp4tGbsuA-_EJrR0as51Y2ax1Mconxj_BZ2R_zAfyxgU1CES-Dh2U43_OrdSHlk1QgSJrTrRUGRE5Z_4p0aKAk9xu1JwV80DdgrMFssqUiVFptpMKWe4qdFiIULYt_nhpL3AS0eX_K-IBIb0ygUObux5tphPfkigAAAAF65MqvAA"
-FORCESUB = "forcesubpavo3"
-AUTH = 6356781743
-DB_CHANNEL = -1002039233060
+BOT_TOKEN = "7482584259:AAHbnDAq7nBXsC50if9rK0dOivlLG9XlvcQ"
+SESSION = "BQCMLuIAhzhCjSe5570KRaB_uThKmEJ13nMn4o3BCSdQPIGrkv_RyfrEG63Icb3VbM0SeNR5hQhGWFz-tEVu_6Rf4XLSQ02MOkx8VEE1zbkeOP7JonMk6P8tzTYwjIOosfRZoG2xA53PvlpCrjZKwpad2xhVZleTlYlv80Ocjgld65f5TRklL992eKgR1sm3Gy9TtJoqoFE_bhdrZTxfvIrCyTKDVCy0Gsicm60cvAvKA1zx5iwpuAMpZDot4HSRlvljlT10jhGF1q1yQgGUcvqsbFhaRuVQYIRlxwQDnuBFFnw07bz-gKjSDbEogBIpNkFM3MsZcWOZjk0Oz_KnhyuwZLfzzwAAAAGX-jAhAA"
+AUTH = 6844723233
+DB_CHANNEL = -1002010535930
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
 userbot = Client("saverestricted", session_string=SESSION, api_hash=API_HASH, api_id=API_ID) 
