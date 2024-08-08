@@ -18,7 +18,7 @@ BOT_TOKEN = "6543286597:AAEjMjtxJO2he-RXV--TqpYtB7VM3deTwsg"
 SESSION = "BQCMLuIAtEIImsYe1VYMNKKzamFqjUisb--vHvxkHP5_G_qLEnh_8krIN1u8pnm6WoWqMllvjzqFMZBfl4OXCQgG1i5B9UlUsycqnujmLNdMG4F9C0j4Uh3Xfc0NijTbQ0PAOAiqTBQTvzdc5Zw1jgJcZVHBfrjQ-p6JQI-vzoeGT2vzchzILg7cZAY1M8vYceLsI7CG9t1uEcOK5ieMo6wpz-6pDOt3tRwH2Eta4cxDuuZbEeMlh2qB4gwfvOiJRj_LTG5GV6xe0WaPl18SEC5YCNqiHog0X1TLykqP7yRTqnI9ETzTBgks0Gd1b1LAs6xiBPO-bx1u9sN3Owm7zyv2kBQ4BQAAAAG4gn41AA"
 FORCESUB = "forcesubcl"
 AUTH = 7390527029
-DB_CHANNEL = -1002178432875
+DB_CHANNEL = -1002100470721
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
 userbot = Client("saverestricted", session_string=SESSION, api_hash=API_HASH, api_id=API_ID) 
